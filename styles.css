@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, sans-serif;
+}
+
+header,
+main {
+  max-width: 65ch;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#cat-fact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#cat-fact-count,
+#get-btn {
+  padding: 1rem;
+  min-width: 200px;
+}
+
+#cat-fact-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.no-fact {
+  text-align: center;
+}
+
+.cat-fact {
+  padding: 1rem;
+  outline: 2px solid grey;
+}

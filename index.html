@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!-- css link -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header class="info">
+      <h1>Cat fact</h1>
+      <p>Get a cat fact by clicking the button down there.</p>
+
+      <form id="cat-fact-form">
+        <label for="cat-fact-count">How much facts?</label>
+        <input type="number" id="cat-fact-count" />
+        <button type="sybmit" id="get-btn">Get a cat fact</button>
+      </form>
+    </header>
+
+    <main>
+      <ul id="cat-fact-list">
+        <li class="no-fact">No facts.. yet</li>
+      </ul>
+    </main>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
