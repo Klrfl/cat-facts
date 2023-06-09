@@ -10,11 +10,15 @@ body {
   font-family: system-ui, sans-serif;
 }
 
-header,
+.info,
 main {
   max-width: 65ch;
   margin: 0 auto;
   padding: 1.5rem;
+}
+
+.info {
+  text-align: center;
 }
 
 h1 {
@@ -33,6 +37,10 @@ h1 {
 #get-btn {
   padding: 1rem;
   min-width: 200px;
+}
+
+#get-btn {
+  cursor: pointer;
 }
 
 #cat-fact-list {

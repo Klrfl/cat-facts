@@ -5,10 +5,6 @@ const catFactListEl = document.getElementById('cat-fact-list');
 catFactForm.addEventListener('submit', async (e) => {
   e.preventDefault();
 
-  if (catFactCount.value == 0) {
-    alert('You have to get at least one fact.');
-  }
-
   catFactListEl.innerHTML = '<li>loading...</li>';
 
   // get facts and render them
