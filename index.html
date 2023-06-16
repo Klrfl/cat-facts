@@ -9,22 +9,31 @@
   </head>
 
   <body>
-    <header class="info">
-      <h1>Cat fact</h1>
-      <p>Get a cat fact by clicking the button down there.</p>
+    <div class="wrapper">
+      <header class="info">
+        <h1>Cat fact</h1>
+        <p>Get a cat fact by clicking the button down there.</p>
 
-      <form id="cat-fact-form">
-        <label for="cat-fact-count">How much facts?</label>
-        <input type="number" id="cat-fact-count" min="1" max="10000" />
-        <button type="submit" id="get-btn">Get a cat fact</button>
-      </form>
-    </header>
+        <form id="cat-fact-form">
+          <label for="cat-fact-count">How much facts?</label>
+          <input type="number" id="cat-fact-count" min="1" max="10000" />
+          <button type="submit" id="get-btn">Get a cat fact</button>
+        </form>
+      </header>
 
-    <main>
-      <ul id="cat-fact-list">
-        <li class="no-fact">No facts.. yet</li>
-      </ul>
-    </main>
+      <main>
+        <ul id="cat-fact-list">
+          <li class="no-fact">No facts.. yet</li>
+        </ul>
+      </main>
+    </div>
+
+    <footer>
+      <p>
+        Made by Klrfl, 2023. See this project on
+        <a href="https://github.com/Klrfl/cat-facts" target="_blank">Github</a>
+      </p>
+    </footer>
 
     <script type="module" src="script.js"></script>
   </body>
